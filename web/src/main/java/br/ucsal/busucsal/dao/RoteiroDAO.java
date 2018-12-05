@@ -80,7 +80,7 @@ public class RoteiroDAO {
 			PreparedStatement stmt = connection.prepareStatement(sql);
 			stmt.setString(1, roteiro.getTitulo());
 			stmt.setString(2, roteiro.getDescricao());
-			stmt.setLong(5, roteiro.getId());
+			stmt.setLong(3, roteiro.getId());
 			stmt.execute();
 			stmt.close();
 		} catch (SQLException e) {
