@@ -54,7 +54,7 @@ public class RoteiroDAO {
 
 	public Roteiro obter(Long id) {
 		Roteiro roteiro = null;
-		String sql = "select (id,titulo,descricao) where id=?";
+		String sql = "select id,titulo,descricao from roteiros where id=?";
 		try {
 			PreparedStatement stmt = connection.prepareStatement(sql);
 			stmt.setLong(1, id);
