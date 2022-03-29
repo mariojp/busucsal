@@ -63,7 +63,7 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
-			<version>9.4.41</version>
+			<version>9.4.35.v20201120</version>
 		</dependency>
 
 
@@ -71,7 +71,7 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-annotations</artifactId>
-			<version>9.4.41</version>
+			<version>9.4.35.v20201120</version>
 		</dependency>
 	</dependencies>
 
@@ -90,7 +90,7 @@
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
-				<version>9.4.41</version>
+				<version>9.4.35.v20201120</version>
 				<configuration>
 					<httpConnector>
 						<!--host>localhost</host -->
