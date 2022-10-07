@@ -63,7 +63,7 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
-			<version>9.4.37</version>
+			<version>9.4.49.v20220914</version>
 		</dependency>
 
 
@@ -71,7 +71,7 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-annotations</artifactId>
-			<version>9.4.37</version>
+			<version>9.4.49.v20220914</version>
 		</dependency>
 	</dependencies>
 
